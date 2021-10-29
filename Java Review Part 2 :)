@@ -1,0 +1,51 @@
+import java.util.Arrays; 
+
+public class Main {
+public static void main(String[] args){   
+    
+    int[] my_array1 = {
+            1789, 2035, 1899, 1456, 2013, 
+            1458, 2458, 1254, 1472, 2365, 
+            1456, 2165, 1457, 2456};
+            
+    String[] my_array2 = {
+            "Java",
+			
+            "Python",
+            "PHP",
+            "C#",
+            "C Programming",
+            "C++"
+        };        
+    System.out.println("Original numeric array : "+Arrays.toString(my_array1));
+     Arrays.sort(my_array1);
+     System.out.println("Sorted numeric array : "+Arrays.toString(my_array1));
+    
+    System.out.println("Original string array : "+Arrays.toString(my_array2));
+     Arrays.sort(my_array2);
+     System.out.println("Sorted string array : "+Arrays.toString(my_array2));
+     
+    }
+    
+     public static void main(String[] Strings) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Input a value for inch: ");
+        double inch = input.nextDouble();
+        double meters = inch * 0.0254;
+        System.out.println(inch + " inch is " + meters + " meters");
+
+    }
+    
+     public static void main(String[] args) {    
+     
+      int my_array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+      int sum = 0;
+
+      for (int i : my_array)
+      sum += i;
+      System.out.println("The sum is " + sum);
+    
+    }
+}
